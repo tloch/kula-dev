@@ -34,7 +34,7 @@
             			    <span><i class="fa fa-envelope"></i> <a href="mailto:<?php echo of_get_option('email_id'); ?>"><?php echo of_get_option('email_id'); ?></a></span>
             			<?php endif; ?>
                     </div>
-                </div><!-- .col-sm-6-->
+                </div><!-- .col-sm-6- ->
                 <div class="col-sm-6">
                     <div class="header-social-icon-wrap">
                         <ul class="social-icons">
@@ -48,7 +48,7 @@
                             ?>
                         </ul>
                     </div><!--.header-social-icon-wrap-->
-                </div><!-- .col-sm-6-->
+                </div><!-- .col-sm-6- ->
             </div>
         </div>
      </div-->
