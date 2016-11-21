@@ -1,0 +1,129 @@
+Delivered-To: thomas.loch@stud.sbg.ac.at
+Received: by 10.107.23.71 with SMTP id 68csp644826iox;
+        Sat, 19 Nov 2016 07:08:01 -0800 (PST)
+X-Received: by 10.28.216.9 with SMTP id p9mr3815439wmg.11.1479568081700;
+        Sat, 19 Nov 2016 07:08:01 -0800 (PST)
+Return-Path: <wolfgang.pree@gmail.com>
+Received: from mail-wm0-x234.google.com (mail-wm0-x234.google.com. [2a00:1450:400c:c09::234])
+        by mx.google.com with ESMTPS id t80si6470585wme.93.2016.11.19.07.08.01
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 19 Nov 2016 07:08:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of wolfgang.pree@gmail.com designates 2a00:1450:400c:c09::234 as permitted sender) client-ip=2a00:1450:400c:c09::234;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com;
+       spf=pass (google.com: domain of wolfgang.pree@gmail.com designates 2a00:1450:400c:c09::234 as permitted sender) smtp.mailfrom=wolfgang.pree@gmail.com
+Received: by mail-wm0-x234.google.com with SMTP id g23so80210066wme.1;
+        Sat, 19 Nov 2016 07:08:01 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=sender:user-agent:date:subject:from:to:message-id:thread-topic
+         :mime-version;
+        bh=JpT2CPKKrSAo2q8WMS5vIz5VWxrqxF5xu6EpEUi9pHg=;
+        b=uTQdqu48vtDgxpKrx9sEiUI5KdiZ1axze4QRhyP/od5XFOiJm6u4jxJ1R7mRItTGYv
+         0yVgVLHyI+IIsefZ/Ik13ZBogo/e3Dk8Iuqgdzp861V/i8ryUO1Yq+Qljg0iArH6+tZy
+         jbTZ6FxCqnISp2twXX48kX3+ehFtPrdTUKDtnDOM63huvZCpTDYuxLt3Jeb5tLllvxSA
+         8KqOT86s7Pt9I2gpAkFz+gAWdGzWCidpL9l/FikPeG6tLqQeyXPMn9d7Z0EVi6lIdW7s
+         ML9XcYPOO6zH2o7f3dJK+ZLFupml7wZ45oPAeYsL05wLEFeH6OJxnzb0fb12QHCiDute
+         i9hw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:sender:user-agent:date:subject:from:to
+         :message-id:thread-topic:mime-version;
+        bh=JpT2CPKKrSAo2q8WMS5vIz5VWxrqxF5xu6EpEUi9pHg=;
+        b=U6a36JGl4W8FB9OuqcmpIBIz1ZGMGSwJmMxkVWxc4oZBbXWfO0wSkD4yYqWH2DRm88
+         ZflfhW2Y161w4ttsrW5ZKlX7wLvWZbCmK5KC+Xf6lem7LJUSV+ZrjedT5n5CX4Pz/ed8
+         JsFCCFbICpZSYU51yOqXZ7EiMulDK0pdRzRtVNgxRLEVxsrPL+LS7JFyzJHZhv3fzPaT
+         R2dNeGq1ho1A3+gFEOkTU4zIVB/nlJK06C08BW0c1ZY9pIb6pKEHrEo8Pt2j/Ho2Q5Mx
+         0gOMaz3xvRHpX4kJBQrCwqkRPFf366P2pB6feZl4iz8G7o5ZtA9JRMIuze3kH7Wz5Lam
+         MOeQ==
+X-Gm-Message-State: AKaTC03HqsXJ0BbEWfeYGkAznrESY9nHdU0wxw+eUvtyl5uM4GOA5iIEjMLdaF0VS7NYag==
+X-Received: by 10.28.71.14 with SMTP id u14mr3819586wma.52.1479568080755;
+        Sat, 19 Nov 2016 07:08:00 -0800 (PST)
+Return-Path: <wolfgang.pree@gmail.com>
+Received: from [192.168.1.46] (193-81-116-7.adsl.highway.telekom.at. [193.81.116.7])
+        by smtp.gmail.com with ESMTPSA id e5sm9154618wma.12.2016.11.19.07.07.58
+        (version=TLS1 cipher=AES128-SHA bits=128/128);
+        Sat, 19 Nov 2016 07:07:59 -0800 (PST)
+Sender: Wolfgang Pree <wolfgang.pree@gmail.com>
+User-Agent: Microsoft-MacOutlook/14.7.0.161029
+Date: Sat, 19 Nov 2016 16:07:56 +0100
+Subject: Video-Links
+From: Wolfgang Pree <Wolfgang.Pree@cs.uni-salzburg.at>
+To: <maximilian.goettl@stud.sbg.ac.at>,
+	<Thomas.Loch@stud.sbg.ac.at>,
+	<oliver.remy@stud.sbg.ac.at>,
+	<benedikt.streitwieser@stud.sbg.ac.at>
+Message-ID: <D456295C.8AE56%Wolfgang.Pree@cs.uni-salzburg.at>
+Thread-Topic: Video-Links
+Mime-version: 1.0
+Content-type: multipart/alternative;
+	boundary="B_3562416479_8123997"
+
+> This message is in MIME format. Since your mail reader does not understand
+this format, some or all of this message may not be legible.
+
+--B_3562416479_8123997
+Content-type: text/plain;
+	charset="ISO-8859-1"
+Content-transfer-encoding: quoted-printable
+
+Sehr geehrtes Kula-Team,
+entschuldigen Sie bitte die sp=E4te Zusendung der Mail; hatte das w=E4hrend der
+Woche vergessen. Ich habe ein paar YouTube-Videos im Channel "Computer
+effizient nutzen" <https://www.youtube.com/channel/UCHMh0bO1XFohlzS9Jfbc4jw=
+>
+und schlage vor, dass Sie diese Videos =FCber folgendes hierachische Menu in
+Ihre App geben:
+
+Einf=FChrung in Google-Apps
+    Motivation <https://www.youtube.com/watch?v=3DKETia0kkAIs>
+    Chrome installieren <https://www.youtube.com/watch?v=3DwnihyYcTcro>
+    Google Konto er=F6ffnen
+<https://www.youtube.com/watch?v=3D8hET4tOGTjc&t=3D149s>
+    GoogleDrive installieren <https://www.youtube.com/watch?v=3DcQTIEHIWTUU>
+    Dokumente und Ordner
+<https://www.youtube.com/watch?v=3DDu5z7XzliT0&t=3D192s>
+    Dokumente freigeben <https://www.youtube.com/watch?v=3DcEmKVXCDT5E>
+    Dokumente bearbeiten <https://www.youtube.com/watch?v=3DBaDAkM5TZlM>
+
+
+Mit freundlichen Gr=FC=DFen,
+-- Wolfgang Pree
+
+
+
+
+--B_3562416479_8123997
+Content-type: text/html;
+	charset="ISO-8859-1"
+Content-transfer-encoding: quoted-printable
+
+<html><head></head><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: s=
+pace; -webkit-line-break: after-white-space; color: rgb(0, 0, 0); font-size:=
+ 14px; font-family: Calibri, sans-serif;"><div>Sehr geehrtes Kula-Team,</div=
+><div>entschuldigen Sie bitte die sp=E4te Zusendung der Mail; hatte das w=E4hren=
+d der Woche vergessen. Ich habe <a href=3D"https://www.youtube.com/channel/UCH=
+Mh0bO1XFohlzS9Jfbc4jw">ein paar YouTube-Videos im Channel "Computer effizien=
+t nutzen"</a>&nbsp;und schlage vor, dass Sie diese Videos =FCber folgendes hie=
+rachische Menu in Ihre App geben:</div><div><br></div><div><div style=3D"font-=
+family: Calibri;">Einf=FChrung in Google-Apps</div><div style=3D"font-family: Ca=
+libri;">&nbsp; &nbsp;&nbsp;<a href=3D"https://www.youtube.com/watch?v=3DKETia0kk=
+AIs">Motivation</a></div><div style=3D"font-family: Calibri;">&nbsp; &nbsp;&nb=
+sp;<a href=3D"https://www.youtube.com/watch?v=3DwnihyYcTcro">Chrome installieren=
+</a></div><div style=3D"font-family: Calibri;">&nbsp; &nbsp;&nbsp;<a href=3D"htt=
+ps://www.youtube.com/watch?v=3D8hET4tOGTjc&amp;t=3D149s">Google Konto er=F6ffnen</=
+a></div><div style=3D"font-family: Calibri;">&nbsp; &nbsp;&nbsp;<a href=3D"https=
+://www.youtube.com/watch?v=3DcQTIEHIWTUU">GoogleDrive installieren</a></div><d=
+iv style=3D"font-family: Calibri;">&nbsp; &nbsp;&nbsp;<a href=3D"https://www.you=
+tube.com/watch?v=3DDu5z7XzliT0&amp;t=3D192s">Dokumente und Ordner</a></div><div =
+style=3D"font-family: Calibri;">&nbsp; &nbsp;&nbsp;<a href=3D"https://www.youtub=
+e.com/watch?v=3DcEmKVXCDT5E">Dokumente freigeben</a></div><div style=3D"font-fam=
+ily: Calibri;">&nbsp; &nbsp;&nbsp;<a href=3D"https://www.youtube.com/watch?v=3DB=
+aDAkM5TZlM">Dokumente bearbeiten</a></div></div><div style=3D"font-family: Cal=
+ibri;"><br></div><div style=3D"font-family: Calibri;"><div><div><br></div><div=
+>Mit freundlichen Gr=FC=DFen,</div><div>-- Wolfgang Pree</div><div><br></div></d=
+iv></div></body></html>
+
+--B_3562416479_8123997--
+
+
