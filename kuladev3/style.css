@@ -1,0 +1,49 @@
+/*
+Theme Name: Kula Dev Mk.III
+Theme URI: http://kula.local
+Description: Kula (based on WPLMS)
+Author: Kula WS 2016/17
+Author URI: http://kula.local
+Version: 0.1
+License: Kula
+License URI: http://kula.local
+*/
+
+/*=== ADD Your Custom Changes here ===*/
+
+
+.security-question-section input[type="number"]{border:1px solid #DDD;}
+.security-question-section+.submit{clear:both;}
+.content ul.question_options {
+clear: both;
+display: inline-block;
+width: 100%;
+list-style:none;
+}
+.bbp-forum-title{
+	font-size: 18px;
+	font-weight: 600;
+}
+#bbpress-forums .bbp-forum-info .bbp-forum-content, #bbpress-forums p.bbp-topic-meta{
+font-size:13px;
+color:#666;
+}
+#bp_search{
+border: 1px solid #DDD;
+padding: 9px 12px;
+border-radius: 2px;
+}
+.bbp-topic-permalink{
+font-size:16px;
+}
+#bbpress-forums p.bbp-topic-meta img.avatar, #bbpress-forums ul.bbp-reply-revision-log img.avatar, #bbpress-forums ul.bbp-topic-revision-log img.avatar,#bbpress-forums div.bbp-template-notice img.avatar, #bbpress-forums .widget_display_topics img.avatar, #bbpress-forums .widget_display_replies img.avatar{
+	width: 32px;
+     border-radius: 50%;
+     border: 1px solid #ddd;
+}
+
+.bbp-breadcrumb,
+.bbp-breadcrumb a{
+font-weight:600;
+text-transform:uppercase;
+}
