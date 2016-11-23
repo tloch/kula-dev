@@ -396,8 +396,6 @@ function make_add_style_rule( $args ) {
 
 // BEGIN KULA MODIFICATION
 
-add_filter( 'llms_get_theme_default_sidebar', 'my_llms_sidebar_function' );
-
 /**
  * Display LifterLMS Course and Lesson sidebars
  * on courses and lessons in place of the sidebar returned by
@@ -409,6 +407,9 @@ function my_llms_sidebar_function($id) {
 	$my_sidebar_id = 'sidebar-right'; // replace this with your theme's sidebar ID
 	return $my_sidebar_id;
 }
+
+add_filter( 'llms_get_theme_default_sidebar', 'my_llms_sidebar_function' );
+
 
 /**
  * Declare explicit theme support for LifterLMS course and lesson sidebars
