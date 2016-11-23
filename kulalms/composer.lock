@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1d84ae5031cccce2089da6a208aecad0",
+    "content-hash": "ec9c4baf4fa4add7bd4b716fa84ef58b",
+    "packages": [
+        {
+            "name": "gocodebox/action-scheduler",
+            "version": "dev-bleeding_branch",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gocodebox/action-scheduler.git",
+                "reference": "504800d1c11468eefeaf0e0858c4c709412183d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gocodebox/action-scheduler/zipball/504800d1c11468eefeaf0e0858c4c709412183d8",
+                "reference": "504800d1c11468eefeaf0e0858c4c709412183d8",
+                "shasum": ""
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Thomas Patrick Levy",
+                    "email": "thomasplevy@gmail.com"
+                }
+            ],
+            "description": "Fork of https://github.com/Prospress/action-scheduler",
+            "support": {
+                "source": "https://github.com/gocodebox/action-scheduler/tree/bleeding_branch"
+            },
+            "time": "2016-07-08 22:08:55"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "gocodebox/action-scheduler": 20,
+        "wp-coding-standards/wpcs": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
