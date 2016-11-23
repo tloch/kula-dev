@@ -392,3 +392,22 @@ function make_add_style_rule( $args ) {
 
 	Make()->style()->css()->add( $args );
 }
+
+
+
+add_filter( 'llms_get_theme_default_sidebar', 'my_llms_sidebar_function' );
+
+/**
+ * Display LifterLMS Course and Lesson sidebars
+ * on courses and lessons in place of the sidebar returned by
+ * this function
+ * @param    string     $id    default sidebar id (an empty string)
+ * @return   string
+ */
+function my_llms_sidebar_function($id) {
+	$my_sidebar_id = 'sidebar-right'; // replace this with your theme's sidebar ID
+	return $my_sidebar_id;
+}
+
+
+

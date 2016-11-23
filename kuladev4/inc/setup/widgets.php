@@ -125,21 +125,6 @@ final class MAKE_Setup_Widgets extends MAKE_Util_Modules implements MAKE_Setup_W
 
 			register_sidebar( $sidebar_args + $this->get_widget_display_args( $sidebar_id ) );
 		}
-
-		add_filter( 'llms_get_theme_default_sidebar', 'my_llms_sidebar_function' );
-
-	}
-
-	/**
-	 * Display LifterLMS Course and Lesson sidebars
-	 * on courses and lessons in place of the sidebar returned by
-	 * this function
-	 * @param    string     $id    default sidebar id (an empty string)
-	 * @return   string
-	 */
-	function my_llms_sidebar_function($id) {
-		$my_sidebar_id = 'sidebar-left'; // replace this with your theme's sidebar ID
-		return $my_sidebar_id;
 	}
 
 	/**
