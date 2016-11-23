@@ -394,6 +394,7 @@ function make_add_style_rule( $args ) {
 }
 
 
+// BEGIN KULA MODIFICATION
 
 add_filter( 'llms_get_theme_default_sidebar', 'my_llms_sidebar_function' );
 
@@ -409,5 +410,14 @@ function my_llms_sidebar_function($id) {
 	return $my_sidebar_id;
 }
 
+/**
+ * Declare explicit theme support for LifterLMS course and lesson sidebars
+ * @return   void
+ */
+function my_llms_theme_support(){
+	add_theme_support( 'lifterlms-sidebars' );
+}
+add_action( 'after_setup_theme', 'my_llms_theme_support' );
 
+// END KULA MODIFICATION
 
