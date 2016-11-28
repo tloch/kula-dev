@@ -440,7 +440,10 @@ html {
 -------------------------------------------------------- */
 
 body {
+/* KULA MODIFICATION
 	background-color: #b9bcbf;
+*/
+	background-color: #ffffff;
 	font-size: 17px;
 	font-size: 1.7rem;
 
@@ -735,9 +738,9 @@ div.custom-logo a {
 .header-bar {
 	float: left;
 	width: 100%;
-	border-bottom: 1px solid #171717;
+	border-bottom: 1px solid #2CAADF;
 	color: #fff;
-	background-color: #171717;
+	background-color: #2CAADF;
 }
 
 @media screen and (min-width: 1100px) {
