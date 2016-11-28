@@ -125,7 +125,9 @@ class LLMS_Student_Dashboard {
 			'signout' => array(
 				'endpoint' => false,
 				'title' => 'Sign Out',
-				'url' => wp_logout_url( llms_get_page_url( 'myaccount' ) ),
+				//'url' => wp_logout_url( llms_get_page_url( 'myaccount' ) ),
+				// KULA MODIFICATION
+				'url' => wp_logout_url( home_url() ),
 			),
 		) );
 
