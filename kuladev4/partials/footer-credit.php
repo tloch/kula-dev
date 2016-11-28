@@ -11,6 +11,7 @@
  * @param bool    $show    Whether or not to show the footer credit.
  */
 $footer_credit = apply_filters( 'make_show_footer_credit', true );
+/*
 ?>
 
 <?php if ( make_get_thememod_value( 'footer-text' ) || is_customize_preview() ) : ?>
@@ -31,4 +32,4 @@ $footer_credit = apply_filters( 'make_show_footer_credit', true );
 	);
 	?>
 </div>
-<?php endif; ?>
+<?php endif; */ ?>
