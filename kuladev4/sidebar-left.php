@@ -20,4 +20,4 @@ $sidebar_id = esc_attr( $sidebar_id );
 	<?php endif; ?>
 </section>
 
-<?php */ ?>
+<?php  */ ?>
