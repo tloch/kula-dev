@@ -1397,8 +1397,11 @@ div.custom-logo a {
 	width: 100%;
 	padding: 44px 0;
 	padding: 4.4rem 0;
+/* KULA MODIFICATION
 	color: #464849;
 	background-color: #eaecee;
+*/
+	background-color: #ffffff;
 }
 
 #infinite-footer .site-footer {
@@ -2706,8 +2709,8 @@ div.wp-video-shortcode {
 }
 
 .section-title {
-	font-size: 24px;
-	font-size: 2.4rem;
+	font-size: 16px;
+	font-size: 1.4rem;
 }
 
 .section-description {
