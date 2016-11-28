@@ -212,9 +212,15 @@ final class MAKE_Setup_Widgets extends MAKE_Util_Modules implements MAKE_Setup_W
 	 * @return bool
 	 */
 	public function has_sidebar( $location ) {
-		// KULA MODIFICATION
+		// BEGIN KULA MODIFICATION
 		// uncomment this to force sidebar everywhere
 		//return true;
+		$uri = $_SERVER["REQUEST_URI"];
+		if(0 === strpos($uri, "/course/")) return true;
+		if(0 === strpos($uri, "/lesson/")) return true;
+		return false;
+
+		// END KULA MODIFICATION
 
 		// Get the view
 		$view = $this->view()->get_current_view();
