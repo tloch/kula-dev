@@ -3325,7 +3325,10 @@ div.wp-video-shortcode {
 	}
 
 	.has-left-sidebar.has-right-sidebar .site-main {
+/*	KULA MODIFICATION
 		width: 48.3333333333%;
+*/
+		width: 70%;
 		margin-left: 3.3333333333%;
 	}
 
